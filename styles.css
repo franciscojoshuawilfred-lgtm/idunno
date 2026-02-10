@@ -1,0 +1,137 @@
+@import url(https://fonts.google.com/specimen/Fraunces);
+@import url(https://fonts.google.com/specimen/Montserrat);
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background:hsl(30, 38%, 92%);
+}
+.cont{
+    border: none;
+    padding: 1em;
+    background: white;
+    border-top-right-radius: 12PX;
+    border-bottom-right-radius: 12PX;
+}
+.header p{
+   font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: grey;
+}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+.header h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1200;
+    font-size: 28px;
+    margin: 0;
+
+}
+.pic{
+    overflow: hidden;
+    width: 300px;
+    height: 389px;
+     border-top-left-radius: 12PX;
+    border-bottom-left-radius: 12PX;
+}
+@media (min-width: 600px) {
+    .mobile{
+    display: none;
+}
+}
+
+.disk{
+    font: sans-serif;
+    font-size: 14px;
+    font-family: 500;
+    margin-top: 1em;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    color: grey;
+}
+.prices{
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+.prices .price {
+    position: relative;
+    font-size: 30px;
+    font-weight: 1000;
+    color: hsl(158, 36%, 37%);
+}
+.prices .del{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+.btn{ 
+    height: 45px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.submit button:hover{
+    background-color: hsl(158, 42%, 18%);
+}
+@media (max-width: 599px){
+    .pic{
+        display: none;
+    }
+    .mobile{
+        width: 300px;
+        height: 300px;
+        margin-bottom:0;
+        padding: 0;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+         margin: 2em;
+    }
+    .med{
+       padding: 0;
+       margin: 0;
+    }
+    .cont{
+        margin: 0;
+        padding: 0;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+    .header{
+        margin: 1em;
+    }
+    .disk{
+        margin: 1em;
+        margin-bottom: 0;
+    }
+    .prices{
+        margin: 1em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .submit button{
+        width: 250px;
+        margin: 2em;
+        margin-top: 0;
+
+    }
+}
